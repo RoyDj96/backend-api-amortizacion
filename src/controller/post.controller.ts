@@ -61,3 +61,7 @@ export const Formula = async (req: Request, res: Response): Promise<void> => {
     amortizacion: Amortizacion,
   });
 };
+
+export const Saludo = async (req: Request, res: Response): Promise<void> => {
+  res.send("Hola mundo");
+}
