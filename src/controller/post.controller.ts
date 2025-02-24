@@ -61,4 +61,3 @@ export const Formula = async (req: Request, res: Response): Promise<void> => {
     amortizacion: Amortizacion,
   });
 };
-console.log("hola mundo");
